@@ -1,6 +1,6 @@
 {
   "name": "firebot-custom-script-starter",
-  "scriptOutputName": "starterScript",
+  "scriptOutputName": "alasgames",
   "version": "1.0.0",
   "description": "A starter Firebot custom script",
   "main": "",
@@ -22,5 +22,9 @@
     "typescript": "^4.0.5",
     "webpack": "^4.44.2",
     "webpack-cli": "^4.1.0"
+  },
+  "dependencies": {
+    "@types/google-spreadsheet": "^3.3.0",
+    "google-spreadsheet": "^3.3.0"
   }
 }
